@@ -1,0 +1,23 @@
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Fisiere generate la compilare
+out/
+build/
+target/
+*.class
+
+# Baze de date locale
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Fisiere temporare
+*.log
+.env
+
+# Fisiere audio fara permisiune de redistribuire
+res/sound/
