@@ -53,7 +53,8 @@ public class AudioPlayer {
             URL url = getClass().getResource(path);
 
             if (url == null) {
-                throw new AudioException("Nu am gasit fisierul audio: " + path);
+                System.out.println("Fisier audio indisponibil: " + path);
+                return;
             }
 
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(url);

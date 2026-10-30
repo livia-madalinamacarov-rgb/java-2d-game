@@ -20,4 +20,4 @@ target/
 .env
 
 # Fisiere audio fara permisiune de redistribuire
-res/sound/
+res/sound_backup/
